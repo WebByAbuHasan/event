@@ -1,5 +1,5 @@
 import axios from "axios";
-const BaseUrl="http://localhost:8080/api";
+const BaseUrl="https://event-nu-liard.vercel.app/api";
 
 export async function getCategories(){
   let res =  await axios.get(`${BaseUrl}/getCategories`);
